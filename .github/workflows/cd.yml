@@ -20,7 +20,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
-            cd auto-deploy-flask
+            cd auto-deploy-express
             git pull origin main
             git status
 
