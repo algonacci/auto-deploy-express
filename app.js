@@ -8,7 +8,9 @@ app.get("/", (req, res) => {
       message: "HELLO WORLD from eric, ini yang udah di-update!",
       code: 200,
     },
-    data: null,
+    data: {
+      name: "ToT Session: Deployment from scratch",
+    },
   });
 });
 
